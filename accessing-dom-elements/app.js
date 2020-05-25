@@ -12,6 +12,6 @@ console.log(choresEl);
 let choresOptioanlEl = document.getElementsByTagName("li");
 console.log(choresOptioanlEl);
 
-let paragraphEl = document.querySelector(".random-paragraphs");
+let paragraphEl = document.querySelectorAll(".chores, .random-paragraphs");
 console.log(paragraphEl);
 
