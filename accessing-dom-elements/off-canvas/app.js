@@ -1,5 +1,5 @@
 const navTriggerEl = document.querySelector(".hamburger");
-const navEl = doccument.querySelector(".nav");
+const navEl = doccument.querySelector("nav");
 const contentEl = document.querySelector(".content");
 const hamburgerBarsEl = document.getElementsByTagName("span");
 
