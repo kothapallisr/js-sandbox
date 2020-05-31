@@ -4,7 +4,7 @@ const todoItemEl = document.querySelectorAll(".todo__item");
 
 function addListItem() {
   todoInputEl.addEventListener("keypress", function(event) {
-    console.log(event.keycode)
+    console.log(event.keycode);
   })
 }
 
