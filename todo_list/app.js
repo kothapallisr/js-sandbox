@@ -4,7 +4,9 @@ const todoItemEl = document.querySelectorAll(".todo__item");
 
 function addListItem() {
   todoInputEl.addEventListener("keypress", function(event) {
-    console.log(event.keycode)
+    if(event.keyCode === 13) {
+      console.log(todoInputEl.value);
+    }
   })
 }
 
