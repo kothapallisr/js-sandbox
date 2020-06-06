@@ -24,5 +24,40 @@ header > h1 {
 }
 
 header > .tagline {
-  
+  font-size: 1.2rem;
 }
+.accordion {
+  width: 620px;
+  margin: 0 auto
+}
+.accordion__heading {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #ddd;
+  padding: 1rem 2rem;
+  letter-spacing: 1px;
+} 
+.accordion__heading:hover {
+  cursor: pointer;
+}
+.accordion__details {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.3s all ease;
+  margin-left: 2rem;
+}
+.accordion__details > p {
+  padding: 1.2rem 0;
+  line-height: 1.2 rem;
+  font-size: 0.8rem;
+}
+
+
+
+
+
+
+
+
+
+
