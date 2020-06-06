@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.loadingbar {
+  width: 100%;  
+  background-color: black;
+  /* height: 4px; */
+}
+.loadingbar__item {
+  width: 60%;
+  background: red;
+  height: 3px;
+}
