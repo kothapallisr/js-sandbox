@@ -40,3 +40,10 @@ main {
   border: 2px dashed white;
   padding: 2rem;
 }
+.timer__label {
+  text-align: center;
+  color: white;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
