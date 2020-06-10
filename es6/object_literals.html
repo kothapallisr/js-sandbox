@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Object literals</title>
+</head>
+<body>
+  <script>
+    let a = "apple";
+    let b = "bell";
+    let c = "cat";
+
+    let myobj = { // ES6 Object literals
+      a,b,c,
+      talk() {
+        console.log("Walking...");
+      },
+      walk() {
+        console.log("Talking...");
+      }
+    }
+
+    console.log(myobj.a);
+    console.log(myobj.c);
+    myobj.talk();
+    myobj.walk();
+
+  </script>
+</body>
+</html>
