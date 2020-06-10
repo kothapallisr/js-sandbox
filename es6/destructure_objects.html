@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Destructuring Objects</title>
+</head>
+<body>
+  <script>
+    david = {
+      fullName: "David Mcboy",
+      age: 23,
+      profession: "Software Developer",
+      hobbies: ["netflix", "comedy", "being lazy"],
+      address: {
+        street: "123 main st",
+        area: "Beach Drive",
+        zip: 35322
+      },
+
+    }
+
+    const {fullName, age, hobbies, address} = david;
+    console.log(fullName);
+    console.log(age);
+
+    console.log(hobbies);
+    console.log(address);
+    const {fullName: name} = david; // aliasing the Object property
+    console.log(name);
+  </script>
+</body>
+</html>
