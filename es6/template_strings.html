@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Template Strings</title>
+</head>
+<body>
+  <script>
+    function display(name, age, profession) {
+      console.log(`My name is ${name}. I am ${age}. I work as ${profession}`);
+    }
+    display("Sri", 30, "Software Developer");
+
+    let html = `
+      <div> 
+        <h1>This is Heading</h1>
+        <p>This is paragraph</p>  
+      </div>
+    `
+    document.querySelector("body").innerHTML = html;
+  </script>
+</body>
+</html>
