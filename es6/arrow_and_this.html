@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arrow Functions ans this</title>
+</head>
+<body>
+  <script>
+    console.log(this); // this refers to Window here
+
+    function hello(){
+      console.log(this); // this refers to Window here
+    }
+
+    const david = {
+      fullName: "David Mcboy",
+      age: 23,
+      intro: function(){
+        console.log(this); // this refers to the object "david" here
+        console.log(this.age);
+      },
+      thisiswin: () => {
+        console.log(this); // this refers to the Window object here
+        console.log(this.age);
+      },
+      updateAge: function() {
+        this.age = 34;
+      }
+    }
+    david.intro();
+    david.thisiswin();
+    david.updateAge();
+    console.log("Updated age: " + david.age);
+
+    hello();
+  </script>
+</body>
+</html>
