@@ -32,3 +32,19 @@ let bike2 = new Bike("Yamaha", "R1");
 console.log("Prototype");
 console.log(bike1.stats());
 console.log(bike2.stats());
+
+// Inheritance, Constructor
+
+function Person(name, age) {
+  this.name = name;
+  this.age = age;
+}
+
+
+Person.prototype.greet = function() {
+  return `I'm ${this.name} and I'm ${this.age} years old!`;
+}
+
+let person1 = new Person("John", 23);
+
+console.log(person1.greet());
