@@ -53,6 +53,8 @@ let coder = new Programmer("Gates", "30", "C++");
 console.log(coder.greet());
 
 const person1 = new Person("John", 23);
+Person.prototype.Constructor = Person;
 
 console.log(person1.greet());
+console.log(person1.Constructor);
 console.log(coder.Constructor);
