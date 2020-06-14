@@ -58,3 +58,10 @@ Person.prototype.Constructor = Person;
 console.log(person1.greet());
 console.log(person1.Constructor);
 console.log(coder.Constructor);
+
+// method overriding
+Programmer.prototype.greet = function() {
+  return `${Person.prototype.greet.call(this)}. I code in ${this.language}`;
+}
+
+console.log(coder.greet());
