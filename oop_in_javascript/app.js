@@ -107,7 +107,7 @@ let person = {
 
 let programmer = Object.create(person);
   programmer.code = function() {
-  console.log(`I like to code in ${this.language}`);
+  console.log(`I like to code in ${this.language}!`);
 }
 
 let joe = Object.create(programmer);
@@ -118,3 +118,18 @@ john.language = "JavaScript";
 
 joe.code();
 john.code();
+
+let driver = Object.create(person);
+driver.drive = function() {
+  console.log(`I am a driver. I drive ${this.car}!`);
+}
+
+driver.car = "Porsche";
+driver.drive();
+
+let farmer = Object.create(person);
+farmer.grow = function() {
+  console.log(`I am a Farmer. I grow ${this.plant}!`);
+}
+farmer.plant = "Papaya";
+farmer.grow();
