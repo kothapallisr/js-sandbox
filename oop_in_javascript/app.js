@@ -92,3 +92,29 @@ console.log(car.aboutCar());
 
 let suv = new Suv("Ford", "Endeavour", "Four Wheel Drive");
 console.log(suv.aboutCar());
+
+// Prototypal Inheritance vs Classical Inheritance
+
+/* prototypal 
+- constructor pattern 
+- prototypal pattern
+*/
+let person = {
+  greet: function() {
+    console.log(`Hi, my name is ${this.name}`);
+  }
+};
+
+let programmer = Object.create(person);
+  programmer.code = function() {
+  console.log(`I like to code in ${this.language}`);
+}
+
+let joe = Object.create(programmer);
+joe.language = "C";
+
+let john = Object.create(programmer);
+john.language = "JavaScript";
+
+joe.code();
+john.code();
