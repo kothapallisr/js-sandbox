@@ -16,3 +16,24 @@ var Ghost = function() {
 let a = new Ghost();
 console.log(a.color);
 
+// ES5
+function Person(name) {
+  this.name = name;
+}
+Person.prototype.greet = function(targetName) {
+  return `Hello ${targetName}, this is ${this.name}`
+}
+let sr = new Person("Sri");
+console.log(sr.greet("Karl"));
+
+// ES6
+class Person1 {
+  constructor(name) {
+    this.name = name;
+  }
+  greet(targetName) {
+    return `Hello ${targetName}, this is ${this.name}`
+  } 
+}
+let sri = new Person1("Sri");
+console.log(sri.greet("Kate"));
