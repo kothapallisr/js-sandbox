@@ -51,3 +51,23 @@ class Animal {
 
 let an = new Animal("rockey", "dog");
 console.log(an.toString());
+
+// basic sub classes
+
+class God {
+  static create() {
+    return [new Man, new Woman];
+  }
+}
+
+class Human {
+
+}
+class Man extends Human {
+
+}
+class Woman extends Human {
+
+}
+
+console.log(God.create());
