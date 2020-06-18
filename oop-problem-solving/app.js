@@ -37,3 +37,17 @@ class Person1 {
 }
 let sri = new Person1("Sri");
 console.log(sri.greet("Kate"));
+
+// JavaScript class like Objects
+class Animal {
+  constructor(name, type) {
+    this.name = name;
+    this.type = type;
+  }
+  toString() {
+    return `${this.name} is a ${this.type}`
+  }
+}
+
+let an = new Animal("rockey", "dog");
+console.log(an.toString());
