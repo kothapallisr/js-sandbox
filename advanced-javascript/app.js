@@ -51,3 +51,4 @@ beta();
 var beta = function() { // function expressions are not getting hoisted
   console.log("new beta speaking!");
 }
+
