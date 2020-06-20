@@ -31,5 +31,23 @@ console.log(rand5);
 var rand5 = "Tom";
 
 // ES6 Temporal Dead Zone
-console.log(rand6);
-let rand6 = "Jerry";
+//console.log(rand6);
+//let rand6 = "Jerry";
+
+// function declarations and function expressions
+
+function alpha() {
+  console.log("alpha speaking!");
+}
+alpha(); 
+function alpha() { // function declarations are getting hoisted
+  console.log("new alpha speaking!");
+}
+
+var beta = function() {
+  console.log("beta speaking!")
+} 
+beta();
+var beta = function() { // function expressions are not getting hoisted
+  console.log("new beta speaking!");
+}
