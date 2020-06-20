@@ -17,3 +17,19 @@ fruits.push("apple", "banana");
 
 console.log(fruits);
 console.log(fruitscopy);
+
+// hoisting
+
+greet();  
+
+function greet() {
+  console.log("Hello, How are you?");
+}
+
+// ES5 Hoisting
+console.log(rand5);
+var rand5 = "Tom";
+
+// ES6 Temporal Dead Zone
+console.log(rand6);
+let rand6 = "Jerry";
