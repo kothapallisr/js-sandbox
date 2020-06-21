@@ -16,4 +16,26 @@ function sumArr(arr) {
 
 console.log(sumArr([1,2,3,4]));
 
+// sum all the digits in a number. Example: 456 -> 15
 
+function sumAllDigits(n) {
+  if(n < 10)  return n  ;
+  return (n % 10) + sumAllDigits(Math.floor(n/10)); 
+}
+
+console.log(sumAllDigits(8870133569));
+
+// count down timer
+
+function countdown(count) {
+  console.log(count);
+  let id = setTimeout(function() {
+    if(count === 0) {
+      clearTimeout(id);
+    } else {
+      countdown(count - 1);
+    }
+  }, 500);
+}
+
+countdown(10);
