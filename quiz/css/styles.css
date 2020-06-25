@@ -1,5 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway|PT+Serif:700");
+
+:root {
+  --main-font-color: #1a1a1a;
+  --main-bg-color: white;
+  --main-theme-color: rgb(243, 168, 47);
+  --light-white: #f5f5f5;
+  --light-gray: #ccc;
+  --light-black: #282a39;
+  --container-width: 768px;
+  --font-body-stack: Raleway, Charcoal, sans-serif;
+  --font-heading-stack: "PT-serif", sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.container {
+  max-width: var(--container-width);
+  margin-right: auto;
+  margin-left: auto;
 }
