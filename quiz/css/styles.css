@@ -22,3 +22,17 @@
   margin-right: auto;
   margin-left: auto;
 }
+.button {
+  padding: 1rem 3.8rem;
+  text-transform: uppercase;
+  border: 0;
+  outline: 0;
+  opacity: 0.9;
+  font-weight: bold;
+  transition: 0.3s all ease;
+}
+.button:hover {
+  opacity: 1;
+  background: var(--light-black);
+  color: white;
+}
