@@ -36,3 +36,41 @@
   background: var(--light-black);
   color: white;
 }
+.button.button--bordered {
+  border: 1px solid var(--light-black);
+}
+.jabquiz {
+  padding: 2rem 1.4rem;
+}
+.jabquiz__question-box {
+  text-align: center;
+}
+.jabquiz__question {
+  font-family: var(--font-heading-stack);
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  padding: 0.8rem 4rem;
+  color: var(--main-font-color);
+}
+.jabquiz__tracker {
+  font-family: var(--font-body-stack);
+  color: var(--light-black);
+  padding: 1rem;
+}
+.jabquiz__tagline {
+  font-family: var(--font-body-stack);
+  color: var(--light-black);
+  padding: 1rem;
+}
+.progress {
+  border-radius: 4px;
+  margin: 2rem auto;
+  width: 50%;
+  background-color: var(--light-white);
+}
+.progress__inner {
+  height: 10px;
+  width: 0%;
+  background-color: var(--main-theme-color);
+  border-right: 2px solid black;
+}
