@@ -74,9 +74,9 @@
   background-color: var(--main-theme-color);
   border-right: 2px solid black;
 }
-.jabquiz__choices-box {
+/* .jabquiz__choices-box {
 
-}
+} */
 .jabquiz__choices {
   list-style-type: none;
   margin: 1rem auto;
