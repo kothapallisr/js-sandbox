@@ -105,9 +105,9 @@
 .jabquiz__choices input:checked + label {
   color: var(--main-theme-color);
 }
-.jabquiz__choices input:checked + label i {
+/* .jabquiz__choices input:checked + label i {
   background-image: url();
 }
 .jabquiz__choices input + label {
   background: url();
-}
+} */
