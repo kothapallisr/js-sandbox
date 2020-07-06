@@ -1,6 +1,13 @@
-import Question from "./Question.js"
+import Question from "./Question.js";
+import Quiz from "./Quiz.js";
 
-let q1 = new Question("What is 1+1?", [3,2,5,7], 1);
-console.log(q1);
+const q1 = new Question();
+const q2 = new Question();
+const q3 = new Question();
+const q4 = new Question();
+const q5 = new Question();
 
-console.log(q1.isCorrect(1));
+const qArray = [q1, q2, q3, q4, q5];
+
+const myQuiz = new Quiz(qArray);
+console.log(myQuiz);
