@@ -1,13 +1,12 @@
 import Question from "./Question.js";
 import Quiz from "./Quiz.js";
 
-const q1 = new Question();
-const q2 = new Question();
-const q3 = new Question();
-const q4 = new Question();
-const q5 = new Question();
+const q1 = new Question("What is 2 + 2?", [2,5,4,7], 2);
+const q2 = new Question("First president of US?", 
+                          ["AL", "George", "Barrack", "Johnny"], 1);
 
-const qArray = [q1, q2, q3, q4, q5];
+
+const qArray = [q1, q2];
 
 const myQuiz = new Quiz(qArray);
-console.log(myQuiz);
+console.log(myQuiz.getCurrentQuestion());
