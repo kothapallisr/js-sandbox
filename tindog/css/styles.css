@@ -31,4 +31,18 @@ h1 {
   width: 60%;
   transform: rotate(25deg);
 }
+#features {
+  padding: 5%;
+}
+.feature-box {
+  padding: 5%;
+  text-align: center;
+}
+.icon {
+  color: darksalmon;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
 
