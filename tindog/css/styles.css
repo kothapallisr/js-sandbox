@@ -8,6 +8,14 @@ h1 {
   font-family: "Montserrat-Black", sans-serif;
   font-size: 3.5rem;
   line-height: 1.5;
+  font-weight: bold;
+}
+h3 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: bold;
+}
+p {
+  color: #8f8f8f;
 }
 .navbar {
   padding: 0 0 4.5rem;
