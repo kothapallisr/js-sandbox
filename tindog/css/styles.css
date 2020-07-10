@@ -9,9 +9,17 @@ h1 {
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: bold;
+  color: #fff;
+}
+h2 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 3rem;
+  color: #fff;
+  padding-bottom: 3%;
 }
 h3 {
   font-family: "Montserrat-Bold", sans-serif;
+  font-size: 1.5rem;
   font-weight: bold;
 }
 p {
@@ -47,10 +55,29 @@ p {
   text-align: center;
 }
 .icon {
-  color: darksalmon;
+  color: #ef8172;
   margin-bottom: 1rem;
 }
 .icon:hover {
   color: #ff4c68;
+}
+#testimonials {
+  background-color: #ef8172;
+  padding: 7% 15%;
+  text-align: center;
+}
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin-right: 15px;
+}
+#press {
+  background-color: #ef8172;
+  padding: 0 5% 5% 5%;
+  text-align: center;
+}
+.press-image {
+  width: 15%;
+  margin: 10px;
 }
 
