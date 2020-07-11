@@ -21,6 +21,9 @@ h3 {
   font-size: 1.5rem;
   font-weight: bold;
 }
+em {
+  color: white;
+}
 p {
   color: #8f8f8f;
 }
@@ -92,4 +95,12 @@ p {
 .pricing-column {
   padding: 3% 2%;
 }
-
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    transform: rotate(0);
+    position: static;
+  }
+}
