@@ -14,7 +14,6 @@ h1 {
 h2 {
   font-family: "Montserrat-Bold", sans-serif;
   font-size: 3rem;
-  color: #fff;
   padding-bottom: 3%;
 }
 h3 {
@@ -81,5 +80,12 @@ p {
 .press-image {
   width: 15%;
   margin: 10px;
+}
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column {
+  padding: 3% 2%;
 }
 
