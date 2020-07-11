@@ -104,3 +104,19 @@ p {
     position: static;
   }
 }
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 3% 17%;
+}
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 3% 10%;
+}
+.footer-icon {
+  padding: 10px;
+}
+.icon-social {
+  margin: 10px 7px;
+}
