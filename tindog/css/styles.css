@@ -101,6 +101,7 @@ p {
 .pricing-column {
   padding: 3% 2%;
 }
+/* media queries */
 @media (max-width: 1028px) {
   #title {
     text-align: center;
