@@ -2,3 +2,7 @@ body {
   background: #345;
   color: white;
 }
+.huge {
+  font-size: 6rem;
+  background-color: white;
+}
