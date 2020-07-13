@@ -40,7 +40,7 @@ function makeSound(key) {
         var kick = new Audio("sounds/kick-bass.mp3");
         kick.play();
        break;
-    default:
+    default: console.log(key);
       break;
   }
 }
