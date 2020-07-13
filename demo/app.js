@@ -1,6 +1,5 @@
 console.log("SAI SARATH");
 console.log("another line");
-
 for(let i=0; i<10; i++) {
   console.log("increasing " + i);
 }
