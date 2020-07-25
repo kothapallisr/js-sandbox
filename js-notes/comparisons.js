@@ -21,4 +21,10 @@ console.log(Number.isNaN(NaN));
 
 console.log(Object.is(NaN));
 
+// comparing objects
+console.log("\nComparing Objects");
+console.log([ 1, 2, 3 ] === [ 1, 2, 3 ]);    // false
+console.log({ a: 42 } === { a: 42 } );        // false
+console.log((x => x * 2) === (x => x * 2));   // false)
+
                  
