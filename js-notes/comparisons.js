@@ -15,4 +15,10 @@ console.log(null === undefined);     // false
 
 console.log(NaN === NaN); // false
 console.log(0 === -0);    // true
+
+console.log("\nNumber is NaN: ");
+console.log(Number.isNaN(NaN));
+
+console.log(Object.is(NaN));
+
                  
