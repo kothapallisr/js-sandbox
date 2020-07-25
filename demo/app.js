@@ -20,7 +20,7 @@ myName = "Simpson";
 console.log(myName);
 
 try {
-  someError();
+  //someError();
 }
 catch (err) {
   console.log(err);
