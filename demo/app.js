@@ -11,3 +11,10 @@ let content = document.createElement("p");
 content.innerHTML = "Hey this is the content inside of the p tag";
 
 document.querySelector("body h1").classList.add("huge");
+
+function hello(myName) { // named parameter myName is treated as var
+  console.log(`Hello ${myName}`);
+}
+hello("Kyle");
+myName = "Simpson";
+console.log(myName);
