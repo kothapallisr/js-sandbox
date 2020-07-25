@@ -13,9 +13,12 @@
  * With class, the "API" of an instance is implicit in the class definition—also, 
  * all data and methods are public. 
  * 
+ * CLASSIC MODULES
  * With the module factory function, you explicitly create and return an object 
  * with any publicly exposed methods, and any data or other unreferenced methods 
  * remain private inside the factory function.
  * 
  * We call the module factories as normal functions without using the "new" keyword.
  */
+
+ 
