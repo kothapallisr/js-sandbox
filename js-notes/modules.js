@@ -17,4 +17,5 @@
  * with any publicly exposed methods, and any data or other unreferenced methods 
  * remain private inside the factory function.
  * 
+ * We call the module factories as normal functions without using the "new" keyword.
  */
