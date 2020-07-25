@@ -36,4 +36,10 @@ var y = x;
 
 y === x;              // true
 y === [ 1, 2, 3 ];    // false
-x === [ 1, 2, 3 ];    // false                 
+x === [ 1, 2, 3 ];    // false     
+
+/***
+ * JS does not provide a mechanism for structural equality comparison of object values, 
+ * only reference identity comparison. To do structural equality comparison, 
+ * you'll need to implement the checks yourself.
+ */
