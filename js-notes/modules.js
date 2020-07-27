@@ -43,5 +43,5 @@
   same single instance. If your module needs to support multiple instantiations, 
   you have to provide a classic module-style factory function on your ESM definition 
   for that purpose.
-  */
+  **/
 
