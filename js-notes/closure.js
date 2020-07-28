@@ -12,5 +12,7 @@
  }
 
  var hello = greeting("Hello");
+ var howdy = greeting("Howdy");
  hello("Kyle");
  hello("Sri");
+ howdy("Srk");
